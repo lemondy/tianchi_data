@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- encoding:utf-8 -*-
 
-product_four_week_file = open('..\\..\\data\\gen\\product_amount.txt','r')
+product_four_week_file = open('..\\..\\data\\gen\\product_amount_two.txt','r')
 product_sub_sample_file = open('..\\..\\data\\sample_submission.csv','r')
 
 submission_result = open('..\\..\\data\\submission_result.csv','w+')

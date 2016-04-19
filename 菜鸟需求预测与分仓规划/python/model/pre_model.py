@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 #-*- encoding:utf-8 -*-
 
-product_N_input_file = open('..\\..\\data\\gen\\item_feature_four_week.txt','r')
+product_N_input_file = open('..\\..\\data\\gen\\item_feature_two_week.txt','r')
 product_N_input = product_N_input_file.readlines()
 product_N_input_file.close()
 
-product_R_input_file = open('..\\..\\data\\gen\\item_store_feature_four_week.txt','r')
+product_R_input_file = open('..\\..\\data\\gen\\item_store_feature_two_week.txt','r')
 product_R_input=product_R_input_file.readlines()
 product_R_input_file.close()
 #输出到文件中，保存的是商品在四周内总销量
-product_amount = open('..\\..\\data\\gen\\product_amount.txt','a')
+product_amount = open('..\\..\\data\\gen\\product_amount_two.txt','a')
 #初步使用去年四周的数据来作为接下来两周的仓库数量
 #全国的数据
 product_N_dict = {}
